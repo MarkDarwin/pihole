@@ -1,0 +1,18 @@
+# regex list to be added to pi.hole
+#purpose - block advertising platforms
+
+#SmartTV ads
+(^|\.)innovid\.com$
+#Channel4 ads from catch up TV
+(^|\.)anno\.channel4\.com$
+#Ad platform
+(^|\.)moatads\.com$
+(^|\.)tubemogul\.com$
+(^|\.)taboola\.com$
+(^|\.)googlesyndication.com$
+(^|\.)monetizepros\.com$
+(^|\.)doubleclick\.net$
+(\.|^)outbrain\.com$
+#Video Ads
+(\.|^)anyclip\.com$
+(\.|^)playwire\.com$
